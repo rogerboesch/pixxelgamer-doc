@@ -29,8 +29,11 @@ and/or scripts.
 ### Missed features
 
 - Documentation: This **main** feature is completely missing for now. It will allow to create a PDF document to describe the entire project.
+- Models: Much more models will be available in final release
 - Collision: The core is already implemented but currently just usable by write event scripts. I want a rule editor instead.
+- Fire and destroy.
 - Physics: The core is already implemented but currently just usable by write event scripts. I want a rule editor instead.
+- Effects and particles.
 - Sound: Feature not available.
 - User Interface: Feature not available.
 - AI: Feature not available.

@@ -5,4 +5,37 @@ date:   2018-02-24 16:00:00 +0100
 categories: manual
 ---
 
-Is coming soon...
+### User interface
+
+![Screenshot 1]({{"/pixxelgamer-doc/images/userinterface.png"}})
+
+**Toolbar**  
+
+**Level chooser**
+
+**Scene browser**
+
+**Scene view**
+
+**Wireframe view**
+
+**Script view**
+
+**Object preview**
+
+**Object properties**
+
+**Events**
+
+### Keys
+
+- *SPACE*: Insert active object at the cursor position
+- *Arrow left*: Move the cursor to the left
+- *Arrow right*: Move the cursor to the right
+- *Arrow up*: Move the cursor up
+- *Arrow down*: Move the cursor down (You cant go below 0)
+- *Backspace*: Delete the selected object, when you press together with *SHIFT*, then the last added object will be deleted
+
+### Live View
+
+### What's more?
