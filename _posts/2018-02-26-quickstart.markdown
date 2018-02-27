@@ -10,7 +10,7 @@ categories: tutorial
 If you don't like read manuals and want have a quick intro to piXXelgamer, then you have found the perfect page.
 It shows in a few easy steps, how you create a level and test some gameplay.
 
-You can download piXXelgamer here: **https://rogerboesch.itch.io/pixxelgamer**
+You can download piXXelgamer here: **[https://rogerboesch.itch.io/pixxelgamer](https://rogerboesch.itch.io/pixxelgamer)**
 
 ### Create a level
 

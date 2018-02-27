@@ -13,7 +13,7 @@ The scripting language used in piXXelgamer is used for 2 purposes:
 The language is Pascal like and easy to learn. You don't have to use scripts at all, but with them you can
 create your prototype much faster and also use some functions otherwise not available.
 
-You can download piXXelgamer here: **https://rogerboesch.itch.io/pixxelgamer**
+You can download piXXelgamer here: **[https://rogerboesch.itch.io/pixxelgamer](https://rogerboesch.itch.io/pixxelgamer)**
 
 ### Language
 

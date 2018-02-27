@@ -5,7 +5,7 @@ date:   2018-02-24 16:00:00 +0100
 categories: manual
 ---
 
-You can download piXXelgamer here: **https://rogerboesch.itch.io/pixxelgamer**
+You can download piXXelgamer here: **[https://rogerboesch.itch.io/pixxelgamer](https://rogerboesch.itch.io/pixxelgamer)**
 
 ### User interface
 
