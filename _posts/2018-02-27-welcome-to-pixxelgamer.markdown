@@ -35,6 +35,7 @@ and/or scripts.
 - User Interface: Feature not available.
 - AI: Feature not available.
 - Scripting: 80% is already implemented and works. Must be more stable and faster also. Also future versions will have a script catalog to easy access written scripts
+- Score system: A scriptable scoring system which allows to implemet easy loose/win situations, points and life.
 
 ### Known issues
 
