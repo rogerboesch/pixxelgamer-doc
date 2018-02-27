@@ -38,4 +38,8 @@ categories: manual
 
 ### Live View
 
+### Script Editor
+
+### Console
+
 ### What's more?

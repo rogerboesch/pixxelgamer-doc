@@ -42,6 +42,7 @@ and/or scripts.
 
 ### Known issues
 
+- Autofocus: Scene View looses focus between
 - Scripting: Variable handling is too limited
 - Camera handling: Is still flickering between
 - General bugs: The software is quite stable but still has some unhandled crashes
