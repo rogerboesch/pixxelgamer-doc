@@ -10,6 +10,8 @@ categories: manual
 piXXelgamer is a macOS (Minimum 10.12 required) based tool to create in a easy way prototypes of 3D games.
 It will be available in three different versions. The first one is used for 3D Games.
 
+YOU CAN DOWNLOAD piXXELgamer at: https://rogerboesch.itch.io/pixxelgamer
+
 ### Introduction
 
 Like many game developers i have also a big list of game ideas and most of time i have take XCode and started
