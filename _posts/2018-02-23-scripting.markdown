@@ -13,78 +13,131 @@ The scripting language used in piXXelgamer is used for 2 purposes:
 The language is Pascal like and easy to learn. You don't have to use scripts at all, but with them you can
 create your prototype much faster and also use some functions otherwise not available.
 
+### Language
+
+The language reference is coming soon. In the meantime see the Quickstart and Tutorial section.
+
+
 ### Reference
 
-**ADDLEVEL** Create's a new empty level in the project.
+#### A
+**ADDLEVEL** Create's a new empty level in the project.  
+*Parameters: none*
 
-**ADDOBJECT** Create a new object at the current cursor position. Use *SELECTOBJECT* to choose between the available object types and catalogs.
+**ADDOBJECT** Create a new object at the current cursor position. Use *SELECTOBJECT* to choose between the available object types and catalogs.  
+*Parameters: none*
 
-**CENTERMODEL** Center the entire model around the the coordinate *0,0,0*. The same can be done when you press *SHIFT RETURN* in the Scene View.
+#### C
+**CENTERMODEL** Center the entire model around the the coordinate *0,0,0*. The same can be done when you press *SHIFT RETURN* in the Scene View.  
+*Parameters: none*
 
-**CLEAR** Clears the console window.
+**CLEAR** Clears the console window.  
+*Parameters: none*
 
-**DELETEALLOBJECTS** Delete all objects in the scene. Use carefully.
+#### D
+**DELETEALLOBJECTS** Delete all objects in the scene. Use carefully.  
+*Parameters: true|false* (Parameter must be true to make the call more secure.)
 
-**EXPLODE** Let all objects in the scene explode.
+#### E
+**EXPLODE** Let all objects in the scene explode.  
+*Parameters: none*
 
-**FOLLOWME** Let the camera follow the current object.
+#### F
+**FOLLOWME** Let the camera follow the object. *Can only be used in object event.*   
+*Parameters: none*  
 
-**FULLSCREEN** Switch to fullscreen mode.
+**FULLSCREEN** Switch to fullscreen mode.  
+*Parameters: none*
 
-**HELP** Displays the available commands.
+#### H
+**HELP** Displays the available commands.  
+*Parameters: none*
 
-**KEYDOWN** returns *1* if the *Down Arrow* key is pressed.
+#### K
+**KEYDOWN** returns *1* if the *Down Arrow* key is pressed.  
+*Parameters: none*
 
-**KEYLEFT** returns *1* if the *Left Arrow* key is pressed.
+**KEYLEFT** returns *1* if the *Left Arrow* key is pressed.  
+*Parameters: none*
 
-**KEYRIGHT** returns *1* if the *Right Arrow* key is pressed.
+**KEYRIGHT** returns *1* if the *Right Arrow* key is pressed.  
+*Parameters: none*
 
-**KEYUP** returns *1* if the *Up Arrow* key is pressed.
+**KEYUP** returns *1* if the *Up Arrow* key is pressed.  
+*Parameters: none*
 
-**MOVE** Move object to the absolute coordinate *x,y,z*.
+#### M
+**MOVE** Move object to the absolute coordinate *x,y,z*. *Can only be used in object event.*  
+*Parameters: x,y,z*
 
-**MOVEBY** Move object relative by *x,y,z* units.
+**MOVEBY** Move object relative by *x,y,z* units. *Can only be used in object event.*  
+*Parameters: x,y,z*
 
-**MOVEOBJECT**  Move **selected** object to the absolute coordinate *x,y,z*.
+**MOVEOBJECT**  Move **selected** object to the absolute coordinate *x,y,z*.  
+*Parameters: x,y,z*
 
-**MOVEOBJECTBY** Move **selected** object relative by *x,y,z* units.
+**MOVEOBJECTBY** Move **selected** object relative by *x,y,z* units.  
+*Parameters: x,y,z*
 
-**PRINTLICENSE** Validate and print license information to console.
+#### P
+**PRINTLICENSE** Validate and print license information to console.  
+*Parameters: none*
 
-**RANDOM** Get a random number.
+#### R
+**RANDOM** Get a random number.  
+*Parameters: n* (Maximum of random number)
 
-**ROTATE** Rotate the object to the absolute angle *x,y,z* (In degrees).
+**ROTATE** Rotate the object to the absolute angle *x,y,z* (In degrees). *Can only be used in object event.*  
+*Parameters: x,y,z*
 
-**ROTATEBY** Rotate the object relative by angle *x,y,z* (In degrees).
+**ROTATEBY** Rotate the object relative by angle *x,y,z* (In degrees). *Can only be used in object event.*  
+*Parameters: x,y,z*
 
-**SELECTOBJECT** Select a object by it's id.
+#### S
+**SELECTOBJECT** Select a object by it's id.  
+*Parameters: n* (ID of an object)
 
-**SETCATALOG** Select an object *#n* from catalog ·*name*.
+**SETCATALOG** Select an object *#n* from catalog ·*name*.  
+*Parameters: name,number*
 
-**SETCURSOR** Set the cursor to position *x,y,z*.
+**SETCURSOR** Set the cursor to position *x,y,z*.  
+*Parameters: x,y,z*
 
-**SETCURSORBY** Set the cursor relative to position *x,y,z*.
+**SETCURSORBY** Set the cursor relative to position *x,y,z*.  
+*Parameters: x,y,z*
 
-**SETLICENSE** Save the license key.
+**SETLICENSE** Save the license key.  
+*Parameters: e-mail, key* (Verify and activate the license key)
 
-**SETLOGSEVERITY** Set the log/console severity level.
+**SETLOGSEVERITY** Set the log/console severity level.  
+*Parameters: 'debug'|'info'|'warning'|'error'*
 
-**SETOBJECTCHAMFER** Set the chamfer radius of the **selected** object. (Must be a box)
+**SETOBJECTCHAMFER** Set the chamfer radius of the **selected** object. (Must be a box)  
+*Parameters: n* (Set the radius from 0.0 to 0.5)
 
-**SETOBJECTCOLOR** Set the color of the **selected** object.
+**SETOBJECTCOLOR** Set the color of the **selected** object.  
+*Parameters: color* (Color in hex format. Ex. '#FF0000')
 
-**SETOBJECTPATTERN** Set the pattern of the **selected** object.
+**SETOBJECTPATTERN** Set the pattern of the **selected** object.  
+*Parameters: n* (Set the pattern to 1-n)
 
-**SETOBJECTPOSITION** Set the position of the **selected** object.
+**SETOBJECTPOSITION** Set the position of the **selected** object.  
+*Parameters: x,y,z*
 
-**SETOBJECTROTATE** Set the rotate of the **selected** object.
+**SETOBJECTROTATE** Set the rotate of the **selected** object.  
+*Parameters: x,y,z*
 
-**SETOBJECTSCALE** Set the scale of the **selected** object.
+**SETOBJECTSCALE** Set the scale of the **selected** object.  
+*Parameters: x,y,z*
 
-**SHOWCONSOLE** Show/hide the console window.
+**SHOWCONSOLE** Show/hide the console window.  
+*Parameters: true|false*
 
-**SPEED** Set the speed of the object.
+**SPEED** Set the speed of the object. *Can only be used in object event.*  
+*Parameters: x,y,z*
 
-**SPEEDBY** Set the relative speed of the object.
+**SPEEDBY** Set the relative speed of the object. *Can only be used in object event.*  
+*Parameters: x,y,z*
 
-**SPOTLIGHT** Assign a spotlight to the object.
+**SPOTLIGHT** Assign a spotlight to the object. *Can only be used in object event.*  
+*Parameters: none*
