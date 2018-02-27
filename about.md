@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+piXXelgamer is a macOS based tool to create 3D Game prototypes.
+You find more information on my website: [rogerboesch.com/pixxelgamer]
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+You can download it on [Itch.io](https://rogerboesch.itch.io/pixxelgamer) or [Patreon](https://www.patreon.com/rogerboesch)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**Please support my side projects**.
 
+Your support is really highly appreciated to make this project possible.
 
-[jekyll-organization]: https://github.com/jekyll
+Thank you very much! Roger
